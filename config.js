@@ -357,7 +357,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Gayley Avenue, November 2013',
-            image: 'ucpd.jpg',
+            image: 'cunning.png',
             imageCredit: '<a href="https://www.police.ucla.edu/" target="_blank">UCPD</a>',
             description: 'Judge David S. Cunningham III, a former president of the Los Angeles Police Commision, was pulled over by two UCPD officers on Gayley Avenue near <a href="https://dailybruin.com/2013/11/25/la-judge-files-excessive-force-complaint-against-ucpd" target="_blank">Whole Foods Market</a>. He was pulled over for not wearing a seatbelt and was handcuffed for resisting arrest, and was shoved into the back of the police car. UCPD were found to have used racially-motivated excessive force, and Cunningham won a <a href="https://dailybruin.com/2014/07/11/la-judge-uc-reach-settlement-over-10m-damages-claim-against-ucpd" target="_blank">$500,000 settlement</a>. ',
             location: {
