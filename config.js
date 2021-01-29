@@ -821,7 +821,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'UCLA Cops off Campus Map',
-            image: 'memorial.jpg',
+            image: 'memorial.JPG',
             imageCredit:'<a href="https://twitter.com/ananyaUCLA/status/1323759724433563648?s=20" target="_blank">Ananya Roy</a>',
             description: 'The UCLA Abolition Map is a growing catalog that aims to pressure our campus to end its legacy of policing students and community. This map will reflect on a portion of the carceral actions of UCLA and continue to build towards a campus and a world without cops.',
             location: {
