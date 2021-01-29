@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -5;
+}
+#menu {
+  position: absolute;
+  background: #fff;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: -16px 0 0 #FE8020;
+}
+#header {
+  margin: auto;
+  min-height: 100vh;
+  background-image:url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/06/10/14/ucla.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 2vh 2vh 5vh 2vh;
+}
+
+#features {
+  padding-top: 80vh;
+  padding-bottom: 10vh;
+  z-index: 100;
+}
+@media (max-width: 750px) {
+  #features {
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
+#footer {
+  min-height: 2vh;
+  text-align: left;
+  line-height: 25px;
+}
+#header h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    margin: auto;
+    max-width: 600px;
+    background-color: rgba(255,255,255,0.8);
+    padding:3px;
+}
+#header h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    max-width: 600px;
+    background-color: rgba(255,255,255,0.8);
+    padding:3px;
+}
+#header p.byline {
+    font-weight: 300;
+    font-size: 0.9em;
+    margin: 0.5em auto 0.8em auto;
+    background-color: rgba(255,255,255,0.8);
+    padding:3px;
+}
+#header p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 1em auto 1em auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding:3px;
+}
+
+#header h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    font-size: 1em;
+    margin-left: 40px;
+    max-width: 50vw;
+}
+#features h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    max-width: 50vw;
+}
+#features p {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    font-size: 1.2em;
+    max-width: 50vw;
+}
+
+#features .imageCredit {
+  font-size: 0.9em;
+  margin-top: -5px;
+}
+#features .fullpage {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display : none;
+    border-radius: 0;
+    min-height: 100%;
+    min-width: 100%;
+    pointer-events: none;
+}
+#features .background-container {
+  background-size: cover;
+  background-position: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.background-container {
+  background-size: cover;
+  background-position: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+#footer p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.9em;
+  max-width: 600px;
+  padding: 1em;
+  margin: 0px auto;
+}
+a, a:hover, a:visited {
+  color: #2774ae;
+}
+.centered {
+  width: 50vw;
+  margin: 0 auto;
+}
+.lefty {
+  width: 33vw;
+  margin-left: 5vw;
+}
+.righty {
+  width: 33vw;
+  margin-left: 62vw;
+}
+.light {
+  color: #444;
+  background-color: #fafafa;
+}
+.dark {
+  color: #fafafa;
+  background-color: #444;
+}
+.step {
+  padding-bottom: 50vh;
+  opacity: 0.6;
+}
+.step.active {
+  opacity: 0.9;
+}
+.step div {
+  padding: 25px 50px;
+  line-height: 25px;
+  font-size: 13px;
+}
+.step img {
+  width: 100%;
+}
+/* Fix issue on mobile browser where scroll breaks  */
+.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan,
+.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
+    touch-action: unset;
+}
+
+.block{
+  padding-top: 50%;
+}
+
+.bgImg{
+  background-size: cover;
+  background-position: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  /* z-index: -1; */
+}
